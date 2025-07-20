@@ -30,6 +30,10 @@ jobs:
         run: npm run build
         working-directory: ./portfolio-personal
 
+      - name: Remove .git from build (fix gh-pages deploy)
+        run: rm -rf .git
+        working-directory: ./portfolio-personal/build
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
