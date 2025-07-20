@@ -39,8 +39,22 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Experiencia y uso de IA/Copilot
+
+Durante el desarrollo de este portafolio se utilizó GitHub Copilot para:
+- Generar la estructura base de los archivos de pruebas unitarias.
+- Sugerir casos de prueba adicionales y validaciones edge.
+- Proponer fragmentos de código para validación de datos y componentes.
+- Optimizar la estructura de los tests y mejorar la cobertura.
+
+Las sugerencias de Copilot fueron adaptadas y revisadas para ajustarse a los requisitos del proyecto y asegurar la calidad del código.
+
+## Entregables
+
+- Archivo(s) de pruebas: `src/data/portfolioData.test.ts`, `src/components/Portfolio.test.tsx`, `src/App.test.tsx`
+- Archivo README.md con descripción del proceso y experiencia usando IA (este archivo)
+- Enlace público al repositorio: [https://github.com/FERMM2024/final](https://github.com/FERMM2024/final)
+- Enlace a Github Pages: [https://FERMM2024.github.io/final](https://FERMM2024.github.io/final)
